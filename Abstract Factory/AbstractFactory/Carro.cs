@@ -4,7 +4,7 @@ namespace AbstractFactory
 {
     public class Carro
     {
-        public Roda Roda { get; set; }        
-        public Som Som { get; set; }
+        public IRoda Roda { get; set; }        
+        public ISom Som { get; set; }
     }
 }

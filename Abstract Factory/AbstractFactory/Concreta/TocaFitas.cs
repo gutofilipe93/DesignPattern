@@ -2,7 +2,7 @@ using AbstractFactory.Interface;
 
 namespace AbstractFactory.Concreta
 {
-    public class TocaFitas : Som
+    public class TocaFitas : ISom
     
     {
         

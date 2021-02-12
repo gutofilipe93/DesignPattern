@@ -2,7 +2,7 @@ using AbstractFactory.Interface;
 
 namespace AbstractFactory.Concreta
 {
-    public class CDPlayer : Som
+    public class CDPlayer : ISom
     {
         
     }

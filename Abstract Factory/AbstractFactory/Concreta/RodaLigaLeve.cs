@@ -2,7 +2,7 @@ using AbstractFactory.Interface;
 
 namespace AbstractFactory.Concreta
 {
-    public class RodaLigaLeve : Roda
+    public class RodaLigaLeve : IRoda
     {
         
     }

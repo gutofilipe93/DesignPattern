@@ -5,12 +5,12 @@ namespace AbstractFactory.Factory
 {
     public class CarroLuxoFactory : CarroFactory
     {
-        public override Roda MontarRoda()
+        public override IRoda MontarRoda()
         {
             return new RodaLigaLeve();
         }
 
-        public override Som MontarSom()
+        public override ISom MontarSom()
         {
             return new CDPlayer();
         }

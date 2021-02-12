@@ -1,6 +1,6 @@
 namespace AbstractFactory.Interface
 {
-    public interface Roda
+    public interface IRoda
     {
         
     }

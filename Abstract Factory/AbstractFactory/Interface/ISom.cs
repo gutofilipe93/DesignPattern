@@ -1,6 +1,6 @@
 namespace AbstractFactory.Interface
 {
-    public interface Som
+    public interface ISom
     {
         
     }
