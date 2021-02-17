@@ -1,5 +1,3 @@
-https://www.youtube.com/watch?v=X28Lj-0rOHk -> AbstractFactory
+Prototype -> https://www.youtube.com/watch?v=PzngwJe7ocg
 
-https://www.youtube.com/watch?v=LWm3888uOrc -> Builder
-
-https://www.youtube.com/watch?v=KouxYcDA2HA -> Factory Method
+Singleton -> https://www.youtube.com/watch?v=JnCWTbICOWg&t=1147s  até o (19:07)
