@@ -1,3 +1,1 @@
-Singleton -> https://www.youtube.com/watch?v=JnCWTbICOWg&t=1147s  até o (19:07)
-
-Adapper -> https://www.youtube.com/watch?v=mSXnIOldzV8
+Proxy -> https://www.youtube.com/watch?v=xMV22kmnOo8
