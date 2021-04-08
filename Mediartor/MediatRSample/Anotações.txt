@@ -1,0 +1,1 @@
+Como foi um exemplo o projeto não foi criado na melhor forma possivel e os Handlers não foram implementados todos, se olhar no exemplo só tem o cadastrado. Faltou o update e remove
