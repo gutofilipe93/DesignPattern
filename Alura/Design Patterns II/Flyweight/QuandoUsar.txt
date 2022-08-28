@@ -1,0 +1,18 @@
+Sempre que temos uma quantidade grande de objetos similares a serem instanciados, 
+uma boa solução é fazer cache dessas instâncias e reutilizá-la. 
+Para isso, a implementação é geralmenta fazer uso de uma fábrica, que controla as instâncias. Esse padrão é conhecido por flyweight.
+
+
+Vamos criar uma classe, parecida com uma Factory, que instanciará uma nota de cada, e sempre que alguém pedir uma nota, ela devolverá sempre a mesma instância
+
+
+Qual a diferença entre Factory e Flyweight?
+Uma Factory instancia uma classe que é importante/complexa, e seu processo de criação deve ser isolado.
+Um Flyweight serve para quando temos muitas instâncias do mesmo objeto andando pelo sistema, e precisamos economizar. 
+Para tal, o Flyweight faz uso de uma fábrica modificada, que guarda essas instâncias.
+
+
+
+O que você acha dele? Ele se parece com um FlyWeight?
+A ideia de ambos é garantir que existam apenas uma única referência para o objeto ao longo do programa.
+A diferença é que o Flyweight garante que existam apenas uma única instância de vários elementos. É um "singleton maior".
