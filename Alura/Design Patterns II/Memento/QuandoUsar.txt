@@ -1,0 +1,9 @@
+Agora temos uma maneira eficiente de salvar estados de um objeto, e restaurá-los caso necessário. 
+Sempre que temos um problema como esse, fazemos uso do Memento. 
+O Memento é um padrão de projeto que nos ajuda a salvar e restaurar estados de objetos.
+
+
+Possível problema do padrão Memento?
+Um possível problema é a quantidade de memória que ele pode ocupar, afinal estamos guardando muitas instâncias de objetos que podem ser pesados.
+Por isso, dependendo do tamanho dos seus objetos, a classe Estado pode passar a guardar não o objeto todo, mas sim somente as propriedades que mais fazem sentido.
+Nada impede você também de limitar a quantidade máxima de objetos no histórico que será armazenado.
