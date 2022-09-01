@@ -1,0 +1,13 @@
+Quando temos expressões que devem ser avaliadas, e a transformamos em uma estrutura de dados,
+e depois fazemos com que a própria árvore se avalie, damos o nome de Interpreter.
+
+Quando temos expressões que devem ser avaliadas, e a transformamos em uma estrutura de dados, e depois fazemos com que a própria árvore se avalie, damos o nome de Interpreter.
+
+EXEMPLO
+Essa idéia do Interpreter é utilizada dentro do C# dentro da API de expressões que são utilizadas para estender o LINQ. 
+Uma expressão do C# é basicamente igual a expressão que utilizamos no projeto. Por exemplo, para construirmos uma expressão do C# que faz uma soma de dois números
+
+OUTRO EXEMPLO DE QUANDO USAR
+O padrão Interpreter é geralmente útil para interpretar DSLs. 
+É comum que, ao ler a string (como por exemplo 2+3/4), o programa transforme-a em uma estrutura de dados melhor (como as nossas classes Expressao) e aí interprete essa árvore.
+É realmente um padrão de projeto bem peculiar, e com utilização bem específica.
