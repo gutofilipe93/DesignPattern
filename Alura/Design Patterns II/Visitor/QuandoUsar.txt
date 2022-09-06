@@ -1,8 +1,3 @@
-A finalidade do visitor dentro do código é simplesmente percorrer toda a árvore de expressão para executar alguma lógica. Nesse capítulo, 
-ele foi utilizado para imprimir as expressões, mas ele também poderia ser utilizado para realizar cálculos com a expressão ou qualquer outra 
-tarefa que dependa do processamento dos nós de nossa árvore de expressão.
+Adicionar uma nova funcionalidade na classe sem altera-la.
 
-
-Quando temos uma árvore, e precisamos navegar nessa árvore de maneira organizada, podemos usar um Visitor, que foi o padrão de projeto implementado nessa aula.
-
-É comum inclusive que o código faça sempre referência a uma interface de Visitor, e não de uma classe concreta. Assim, conseguimos trocar facilmente o visitor que visitará a árvore:
+No nosso exemplo adicionamos o preço com desconto no para o carro, antes de implementar o padrão a classe só possuia preço original.
