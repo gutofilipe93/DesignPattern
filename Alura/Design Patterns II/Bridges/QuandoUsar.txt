@@ -1,0 +1,22 @@
+Quando queremos ligar duas hierarquias que possuem responsabilidades distintas através de composição de classes. 
+Essa composição funciona como uma ponte entre as duas hierarquias de classes e, por isso, esse padrão é conhecido como bridge.
+
+Quando temos uma hierarquia de classes que é responsável por diversas características do sistema (formatação e envio da mensagem, no exemplo), 
+podemos utilizar o padrão bridge para separar as características em diversas hierarquias ligando-as através da composição de classes.
+
+
+SITUAÇÃO E SOLUÇÃO
+Mas agora temos um novo requisito, além de mandar mensagens para o cliente, também precisamos enviar mensagens para os administradores do sistema. 
+Mensagens para o administrador também podem ser enviadas por e-mail ou SMS, a única diferença é que elas utilizam uma formatação diferenciada.
+
+Podemos tentar resolver esse problema criando mais duas classes que também implementam a interface IMensagem: MensagemAdministrativaPorEmail e MensagemAdministrativaPorSMS. 
+Repare que toda vez que precisarmos de um novo tipo de mensagem, teremos que criar duas novas implementações para a interface IMensagem, uma para o e-mail e outra para o SMS. 
+O mesmo acontecerá se quisermos colocar uma nova forma de envio para as mensagens.
+
+O problema é que a formatação da mensagem e o envio de mensagens são duas responsabilidades distintas e, por isso, deveriam ser implementadas por classes separadas. 
+Vamos então criar uma nova interface que representa qual é a estratégia de envio de mensagens que queremos utilizar
+
+
+Você consegue ver alguma relação entre o Bridge e o Strategy? Qual?
+Na implementação do bridge que fizemos nesse capítulo, podemos ver que o bridge pode utilizar o strategy em sua implementação: 
+a mensagem em seu método Envia utiliza o strategy para decidir qual é a estratégia de envio que será utilizada pela aplicação.
