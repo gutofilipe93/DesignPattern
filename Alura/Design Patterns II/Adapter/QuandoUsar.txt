@@ -1,0 +1,6 @@
+Essa classe GeradorDeXml é uma classe que tem a responsabilidade de adaptar o código da API do C# para geração de XML para um código orientado a objetos que é entendido pela aplicação.
+Esse é um padrão de projeto chamado Adapter.
+
+Utilizamos o adapter quando queremos adaptar o código de um sistema legado ou de uma biblioteca para que ele trabalhe corretamente com o sistema orientado a objetos que está sendo desenvolvido.
+
+PARA VE A DIFERENTA DO ADAPTER PARA OS OUTROS PADRÕES OLHE A IMAGEM.
